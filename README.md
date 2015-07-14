@@ -59,6 +59,9 @@ These are a great way to spin up quickly. The GitHub guide is short and sweet.
 * [Testing DSC Configurations with Pester and AppVeyor](http://ramblingcookiemonster.github.io/Testing-DSC-with-Pester-and-AppVeyor/)
 * [GitHub pages](http://ramblingcookiemonster.github.io/GitHub-Pages/) - a great way to host your blog content, if you don’t mind a little yak shaving
 
-## Note
+## Notes
 
-The vast majority of the youtube video should be reasonable, content wise. Paraphrased / simplified a few things. The description of 'HEAD' was a bit shaky, not sure why I tried to reword that on the spot - sorry about that! You probably won't even need this, but here's an explanation of [HEAD](http://stackoverflow.com/a/4381549).
+* The vast majority of the youtube video should be reasonable, content wise.
+* Paraphrased / simplified a few things.
+* The description of 'HEAD' was a bit shaky, not sure why I tried to reword that on the spot - sorry about that! You probably won't even need this, but here's an explanation of [HEAD](http://stackoverflow.com/a/4381549).
+* Contributing to the Microsoft DSC resources? You can ignore most of the branch and HEAD discussion. Long story short, just make sure you are working on the dev branch, and that you submit your pull request to the dev branch.
