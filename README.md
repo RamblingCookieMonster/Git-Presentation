@@ -65,3 +65,4 @@ These are a great way to spin up quickly. The GitHub guide is short and sweet.
 * Paraphrased / simplified a few things.
 * The description of 'HEAD' was a bit shaky, not sure why I tried to reword that on the spot - sorry about that! You probably won't even need this, but here's an explanation of [HEAD](http://stackoverflow.com/a/4381549).
 * Contributing to the Microsoft DSC resources? You can ignore most of the branch and HEAD discussion. Long story short, just make sure you are working on the dev branch, and that you submit your pull request to the dev branch.
+* I mentioned there weren't many solid Git server solutions in the Microsoft ecosystem. Haven't used it, but [SCM-Manager](https://www.scm-manager.org/) might be worth a peak if you want a free on-prem solution, and you don't mind Java.
