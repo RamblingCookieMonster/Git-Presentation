@@ -3,9 +3,15 @@ A Crash Course in Version Control and Git
 
 These are the presentation materials and notes used at the PowerShell.org TechSession [A Crash Course in Version Control and Git](https://www.youtube.com/watch?v=wmPfDbsPeZY)
 
-## Resources from the powerpoint:
+At the end of the day, this is quite similar to PowerShell. You're not going to pick up Git and GitHub from an hour long webinar or a three day course. Start using Git and GitHub for a project. Get involved with a repository on GitHub.
 
-### Interactive guides
+The only way you'll pick this up is if you start using it on a regular basis... And if you're not on some fancy development team, this is going to be far simpler than picking up PowerShell.
+
+## Resources from the PowerPoint:
+
+### Interactive Guides
+
+These are a great way to spin up quickly. The GitHub guide is short and sweet.
 
 * [GitHub’s interactive guide](https://try.github.io/) - Learn Git in 15 minutes
 * [Learn Git Branching](http://pcottle.github.io/learnGitBranching)
@@ -55,4 +61,4 @@ These are the presentation materials and notes used at the PowerShell.org TechSe
 
 ## Note
 
-The vast majority of the youtube video should be reasonable. Paraphrased / simplified a few things. The description of 'HEAD' was a bit shaky, not sure why I tried to reword that on the spot - sorry about that! You probably won't even need this, but here's an explanation of [HEAD](http://stackoverflow.com/a/4381549).
+The vast majority of the youtube video should be reasonable, content wise. Paraphrased / simplified a few things. The description of 'HEAD' was a bit shaky, not sure why I tried to reword that on the spot - sorry about that! You probably won't even need this, but here's an explanation of [HEAD](http://stackoverflow.com/a/4381549).
