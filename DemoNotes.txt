@@ -77,7 +77,7 @@ You usually clone down the repository once. Let's walk through an example day-to
         - Second, if there are local changes, it runs git push to send them to the GitHub repo
         - Now we can check GitHub and see that it is up to date!
         - If you work on multiple computers, you can hit the sync button if you get out of date from the GitHub repo, continue working
-        - Hint: Try to keep your local copy up to date. Changing the same file from two places can lead to merge conflicts. Typically trivial to fix small PowerShell projects, outside the scope of this session.
+        - Hint: Try to keep your local copy up to date. Changing the same file from two places can lead to merge conflicts. Typically trivial to fix for small PowerShell projects, outside the scope of this session.
     - Simple workflow!
         - Make changes
         - Commit
@@ -111,7 +111,7 @@ Using Git from the shell
         git push
 
 Branches!
-    - Think of each commit as a snapshot of your project. Similar to a VM.
+    - Think of each commit as a snapshot of your project. Similar to a VM snapshot.
     - A branch is just a named pointer to one of these commits, like a post-it note.
     - By default, when you create a new repository, git creates a 'master' branch, that nearly everyone uses.
     - Basically like having an entire separate copy of your project, which you can work on without breaking other copies. Try a new feature that will break existing stuff. Create a new version of your project that breaks down level compatibility. Etc.
@@ -122,7 +122,7 @@ Branches!
     - Let's give this a shot. It's much easier than it sounds.
     - Clone Demo-To-Fork. Open explorer.
     - We can flip back and forth. Important to note that this changes your working directory (file system)
-    - Look at existing branches (use -ad to include remotes):
+    - Look at existing branches (use -a to include remotes):
         git branch
     - Move HEAD to Dev branch. Working on MSFT DSC Resources? They want you to use Dev.
         git checkout Dev    # Case sensitive...
@@ -193,16 +193,16 @@ If you end up contributing to the DSC Resources, check out Microsofts contributi
     DSC Contributions guide: https://github.com/PowerShell/DscResources/blob/master/CONTRIBUTING.md
     DSC Resource Style Guidelines: https://github.com/PowerShell/DscResources/blob/master/StyleGuidelines.md
 
-    - Oh shoot! the repo you forked was updated on the author's end. How do we update?
-        A bit of a pain: http://stackoverflow.com/questions/7244321/how-to-update-github-forked-repository
-        Copy Clone URL : https://github.com/psCookieMonster/Demo-To-Fork.git
-        git remote add upstream https://github.com/psCookieMonster/Demo-To-Fork.git
-        git fetch upstream
-        git checkout master
-        git merge upstream/master
+- Oh shoot! the repo you forked was updated on the author's end. How do we update?
+    A bit of a pain: http://stackoverflow.com/questions/7244321/how-to-update-github-forked-repository
+    Copy Clone URL : https://github.com/psCookieMonster/Demo-To-Fork.git
+    git remote add upstream https://github.com/psCookieMonster/Demo-To-Fork.git
+    git fetch upstream
+    git checkout master
+    git merge upstream/master
 
-    - All my commits look so messy! Can I consolidate them down?
-        Danger zone. This is absolutely possible, and might be easy, but use caution.
-        Long story: Consider the logic here: http://justinhileman.info/article/git-pretty/git-pretty.png
-        Short story: If you haven't pushed to GitHub, consider git rebase -i
-            Example reference: https://help.github.com/articles/about-git-rebase/
+- All my commits look so messy! Can I consolidate them down?
+    Danger zone. This is absolutely possible, and might be easy, but use caution.
+    Long story: Consider the logic here: http://justinhileman.info/article/git-pretty/git-pretty.png
+    Short story: If you haven't pushed to GitHub, consider git rebase -i
+        Example reference: https://help.github.com/articles/about-git-rebase/

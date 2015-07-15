@@ -1,13 +1,23 @@
 A Crash Course in Version Control and Git
 =============
 
-These are the presentation materials and notes used at the PowerShell.org TechSession [A Crash Course in Version Control and Git](https://www.youtube.com/watch?v=wmPfDbsPeZY)
+These are the presentation materials and notes used at the PowerShell.org TechSession [A Crash Course in Version Control and Git](https://www.youtube.com/watch?v=wmPfDbsPeZY).
 
 At the end of the day, this is quite similar to PowerShell. You're not going to pick up Git and GitHub from an hour long webinar or a three day course. Start using Git and GitHub for a project. Get involved with a repository on GitHub.
 
-The only way you'll pick this up is if you start using it on a regular basis... And if you're not on some fancy development team, this is going to be far simpler than picking up PowerShell.
+The only way you'll pick this up is if you start using it on a regular basis... And if you're not on some fancy development team (or even if you are), this is going to be far simpler than picking up PowerShell.
 
 ## Resources from the PowerPoint:
+
+### Why Use Version Control?
+
+Research your own scenario. Chances are you should be using version control. A few examples:
+
+* [The Operations Report Card](http://www.opsreportcard.com/section/6) - Because Tom said so.
+* [A stackoverflow thread](http://stackoverflow.com/questions/1408450/why-should-i-use-version-control)
+* [Why Use a Version Control System?](http://www.git-tower.com/learn/git/ebook/mac/basics/why-use-version-control)
+* [Why revision control?](http://hgbook.red-bean.com/read/how-did-we-get-here.html)
+* [A Visual Guide to Version Control](http://betterexplained.com/articles/a-visual-guide-to-version-control/)
 
 ### Interactive Guides
 
@@ -38,6 +48,7 @@ These are a great way to spin up quickly. The GitHub guide is short and sweet.
 * [Git From the Inside Out](https://codewords.recurse.com/issues/two/git-from-the-inside-out)
 * [Git For Computer Scientists](http://eagain.net/articles/git-for-computer-scientists) - Great read with helpful pictures, don’t be intimidated by the title
 * [Branching, forking, other concepts explained](http://stackoverflow.com/questions/3329943/git-branch-fork-fetch-merge-rebase-and-clone-what-are-the-differences)
+* [Linus Torvalds' Google Tech Talk on Git](https://www.youtube.com/watch?v=4XpnKHJAok8) - More focused on design, but a fun talk
 
 ### Oh shoot, something went wrong!
 
@@ -50,6 +61,24 @@ These are a great way to spin up quickly. The GitHub guide is short and sweet.
 * [Git for IT Professionals: Getting Started](http://www.powershellmagazine.com/2015/07/13/git-for-it-professionals-getting-started-2/) - Thanks to Ravikanth! More to come in this series
 * [PowerShell.org Community Build Server](http://powershell.org/wp/community-build-server/) - A big thanks to Dave Wyatt, PowerShell.org, Chef, and anyone else involved in this : )
 
+### Popular Git clients on Windows
+
+* [GitHub for Windows](https://windows.github.com/) - I use this; it's simple, and it works.
+* [Atlassian SourceTree](https://www.sourcetreeapp.com/) - I use this; Supports Mercurial, more functionality than GitHub for Windows, if you need it.
+* [msysgit](http://msysgit.github.io/) - Command line and a basic GUI
+* [TortoiseGit](http://tortoisegit.org/) - I don't use this, but I've heard good things.
+* [Yada yada yada](http://git-scm.com/downloads/guis)
+
+### Continuous Integration and Delivery
+
+This is an interesting topic, excited to see this mature in the MSFT / PowerShell ecosystem. You should start exploring this, it's incredibly helpful.
+
+* [Automating with Jenkins and PowerShell on Windows](https://www.hodgkins.net.au/powershell/automating-with-jenkins-and-powershell-on-windows-part-1/)
+* [PowerShell + Pester + Jenkins : Journey to Continuous Integration](http://www.dexterposh.com/2015/06/powershell-pester-jenkins-ci.html)
+* [A series covering the GitHub, Pester, and AppVeyor toolset](http://ramblingcookiemonster.github.io/GitHub-For-PowerShell-Projects/#continuous-integration) - links duplicated below
+* [Sergei Vorobev from the PowerShell team, talking GitHub, Pester, and AppVeyor](https://www.youtube.com/watch?v=zFd9DJPERIo)
+* [PowerShell.org Community Build Server](http://powershell.org/wp/community-build-server/) - Thanks to Dave Wyatt, PowerShell.org, Chef, and anyone else behind this!
+
 ### Shameless plug!
 
 * [Source Control Survey Results](http://ramblingcookiemonster.github.io/Source-Control-Survey/)
@@ -61,8 +90,10 @@ These are a great way to spin up quickly. The GitHub guide is short and sweet.
 
 ## Notes
 
-* The vast majority of the youtube video should be reasonable, content wise.
+* The vast majority of the youtube [video](https://www.youtube.com/watch?v=wmPfDbsPeZY) should be reasonable, content wise.
 * Paraphrased / simplified a few things.
 * The description of 'HEAD' was a bit shaky, not sure why I tried to reword that on the spot - sorry about that! You probably won't even need this, but here's an explanation of [HEAD](http://stackoverflow.com/a/4381549).
 * Contributing to the Microsoft DSC resources? You can ignore most of the branch and HEAD discussion. Long story short, just make sure you are working on the dev branch, and that you submit your pull request to the dev branch.
 * I mentioned there weren't many solid Git server solutions in the Microsoft ecosystem. Haven't used it, but [SCM-Manager](https://www.scm-manager.org/) might be worth a peak if you want a free on-prem solution, and you don't mind Java.
+
+Thanks to Nick Getchell and PowerShell.org for the invite, it was an honor and a pleasure to give this presentation!
