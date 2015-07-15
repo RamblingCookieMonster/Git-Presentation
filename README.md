@@ -36,6 +36,7 @@ These are a great way to spin up quickly. The GitHub guide is short and sweet.
 * [Understanding Branches](http://blog.thoughtram.io/git/rebase-book/2015/02/10/understanding-branches-in-git.html)
 * [Git Explained: For Beginners](http://www.dotnetcodegeeks.com/2015/06/git-explained-for-beginners.html)
 * [GitHub Flow – GitHub from a Browser](https://github.com/blog/1557-github-flow-in-the-browser)
+* [GitHub for PowerShell Projects](http://ramblingcookiemonster.github.io/GitHub-For-PowerShell-Projects/) - Shameless plug
 
 ### Contributing to Microsoft’s DSC Resources on GitHub
 
@@ -61,7 +62,6 @@ These are a great way to spin up quickly. The GitHub guide is short and sweet.
 
 * [Git Disciplined](http://blog.8thlight.com/makis-otman/2015/07/08/git-disciplined.html)
 * [Git for IT Professionals: Getting Started](http://www.powershellmagazine.com/2015/07/13/git-for-it-professionals-getting-started-2/) - Thanks to Ravikanth! More to come in this series
-* [PowerShell.org Community Build Server](http://powershell.org/wp/community-build-server/) - A big thanks to Dave Wyatt, PowerShell.org, Chef, and anyone else involved in this : )
 
 ### Popular Git clients on Windows
 
@@ -77,18 +77,11 @@ This is an interesting topic, excited to see this mature in the MSFT / PowerShel
 
 * [Automating with Jenkins and PowerShell on Windows](https://www.hodgkins.net.au/powershell/automating-with-jenkins-and-powershell-on-windows-part-1/)
 * [PowerShell + Pester + Jenkins : Journey to Continuous Integration](http://www.dexterposh.com/2015/06/powershell-pester-jenkins-ci.html)
-* [A series covering the GitHub, Pester, and AppVeyor toolset](http://ramblingcookiemonster.github.io/GitHub-For-PowerShell-Projects/#continuous-integration) - links duplicated below
-* [Sergei Vorobev from the PowerShell team, talking GitHub, Pester, and AppVeyor](https://www.youtube.com/watch?v=zFd9DJPERIo)
-* [PowerShell.org Community Build Server](http://powershell.org/wp/community-build-server/) - Thanks to Dave Wyatt, PowerShell.org, Chef, and anyone else behind this!
-
-### Shameless plug!
-
-* [Source Control Survey Results](http://ramblingcookiemonster.github.io/Source-Control-Survey/)
-* [GitHub for PowerShell Projects](http://ramblingcookiemonster.github.io/GitHub-For-PowerShell-Projects/)
 * [Fun with GitHub, Pester, and AppVeyor](http://ramblingcookiemonster.github.io/GitHub-Pester-AppVeyor/)
 * [GitHub, Pester, and AppVeyor: Part Two](http://ramblingcookiemonster.github.io/Github-Pester-AppVeyor-Part-2/)
 * [Testing DSC Configurations with Pester and AppVeyor](http://ramblingcookiemonster.github.io/Testing-DSC-with-Pester-and-AppVeyor/)
-* [GitHub pages](http://ramblingcookiemonster.github.io/GitHub-Pages/) - a great way to host your blog content, if you don’t mind a little yak shaving
+* [Sergei Vorobev from the PowerShell team, talking GitHub, Pester, and AppVeyor](https://www.youtube.com/watch?v=zFd9DJPERIo)
+* [PowerShell.org Community Build Server](http://powershell.org/wp/community-build-server/) - Thanks to Dave Wyatt, PowerShell.org, Chef, and anyone else behind this!
 
 ## Notes
 
