@@ -9,6 +9,8 @@ The only way you'll pick this up is if you start using it on a regular basis... 
 
 ## Resources from the PowerPoint:
 
+Here are some handy resources from the last slide, and a few extracted from the slide notes. Don’t be intimidated, you don’t need all this, but it may come in handy if you want to dive a bit deeper into the weeds.
+
 ### Why Use Version Control?
 
 Research your own scenario. Chances are you should be using version control. A few examples:
