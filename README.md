@@ -51,6 +51,7 @@ These are a great way to spin up quickly. The GitHub guide is short and sweet.
 * [Git From the Inside Out](https://codewords.recurse.com/issues/two/git-from-the-inside-out)
 * [Git For Computer Scientists](http://eagain.net/articles/git-for-computer-scientists) - Great read with helpful pictures, don’t be intimidated by the title
 * [Branching, forking, other concepts explained](http://stackoverflow.com/questions/3329943/git-branch-fork-fetch-merge-rebase-and-clone-what-are-the-differences)
+* [Git Power Routines](https://www.youtube.com/playlist?list=PLDshL1Z581YYxLsjYwM25HkIYrymXb7H_) Bite sized, practical videos on more advanced git activities ([background](https://developer.atlassian.com/blog/2015/07/git-power-routines/)).
 * [Linus Torvalds' Google Tech Talk on Git](https://www.youtube.com/watch?v=4XpnKHJAok8) - More focused on design, but a fun talk
 
 ### Oh shoot, something went wrong!
