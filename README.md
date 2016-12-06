@@ -28,6 +28,7 @@ These are a great way to spin up quickly. The GitHub guide is short and sweet.
 * [GitHub’s interactive guide](https://try.github.io/) - Learn Git in 15 minutes
 * [Learn Git Branching](http://pcottle.github.io/learnGitBranching)
 * [Interactive Cheat sheet](http://ndpsoftware.com/git-cheatsheet.html)
+* [GitHug](https://github.com/Gazler/githug)
 
 ### References
 
